@@ -11,6 +11,24 @@ The sample CMS for profile with multiple skills.
 <img src="https://raw.githubusercontent.com/waleerat/GitHub-Photos-Shared/main/SwiftUI-CMS-with-relation-bundle-data/02.png"  width="20%" height="20%"> |
 <img src="https://raw.githubusercontent.com/waleerat/GitHub-Photos-Shared/main/SwiftUI-CMS-with-relation-bundle-data/03.png"  width="20%" height="20%"> 
 
+
+
+## How to setup project
+1. Clone project to your Mac
+2. Setup firebase  [See](https://firebase.google.com/docs/ios/setup)
+3. Enable Firebase and Firestore [See](https://console.firebase.google.com/)
+4. import your own GoogleService-Info.plist to the project
+5. run pod install in Terminal
+
+```sh
+ run pod install
+```
+5.  Close project and open again
+ <img src="https://raw.githubusercontent.com/waleerat/GitHub-Photos-Shared/main/SwiftUI-CMS-with-relation-bundle-data/04.png"  width="50%" height="50%">
+
+
+
+
 # Models
 
 ```sh
@@ -39,22 +57,6 @@ struct ProfileViewModel: Identifiable, Hashable {
 }
 
 ```
-
-
-## How to setup project
-1. Clone project to your Mac
-2. Setup firebase  [See](https://firebase.google.com/docs/ios/setup)
-3. Enable Firebase and Firestore [See](https://console.firebase.google.com/)
-4. import your own GoogleService-Info.plist to the project
-5. run pod install in Terminal
-
-```sh
- run pod install
-```
-5.  Close project and open again
- <img src="https://raw.githubusercontent.com/waleerat/GitHub-Photos-Shared/main/SwiftUI-CMS-with-relation-bundle-data/04.png"  width="50%" height="50%">
-
-
 
 ## Check these files
 
